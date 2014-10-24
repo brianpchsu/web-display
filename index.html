@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-US-Compatible" content="IT=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Awesome Web Developer!</title>
+        <link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <img class="title-logo img-circle" src="image/Android.png" alt="logo">
+                </div>
+                <div class="col-md-6 text-right text-uppercase" >
+                    <h1 class="title-super text-thin">Brian Hsu</h1>
+                    <h4>Awesome Web Developer!</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                  <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="image/google.jpg" data-toggle="modal" data-target="#project1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img class="img-responsive " src="image/moodreactor.png" data-toggle="modal" data-target="#project2">
+                    <h3 class="text-uppercase">Mood Reactor</h3>
+                    <p><a href="http://moodreactor.brianpchsu.com/">Try Mood Reactor here.</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="image/blog.png" data-toggle="modal" data-target="#project3">
+                    <h3 class="text-uppercase">Blog</h3>
+                    <p><a href="http://brianpchsu.com/">My blog project</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="image/linkedin.jpg" data-toggle="modal" data-target="#project4">
+                    <h3 class="text-uppercase">LinkedIn</h3>
+                    <p><a href="http://www.linkedin.com/in/brianpchsu/">My LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+      <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">My future company</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="image/google.jpg">
+              This was my first project in the Udacity Nanodegree class. I learned a lot of HTML and CSS. The photo is the Google office! Maybe you will see me here in 2015! 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">My Blog</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="image/moodreactor.png">
+              <a href="http://moodreactor.brianpchsu.com/">Mood Reactor</a> is a simple web app that will help you feel good/better no matter your current mood is. Try press every button and you will know. 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">My Blog</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="image/blog.png">
+              <a href="http://brianpchsu.com/">My Blog</a> tells you my learning experience and my learning notes. Maybe you have similar path?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+             <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">My LinkedIn profile</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="image/linkedin.jpg">
+              You can find my LinkedIn profile <a href= "http://www.linkedin.com/in/brianpchsu/"> here</a>.  
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script> 
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </body>
+</html>
